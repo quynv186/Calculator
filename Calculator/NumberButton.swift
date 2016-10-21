@@ -27,7 +27,7 @@ class NumberButton: UIButton {
     func setNumberButton() -> Void {
         backgroundColor = UIColor.init(red: 49/255, green: 58/255, blue: 75/255, alpha: 1)
         
-        titleLabel?.font = UIFont.systemFont(ofSize: 20)
+        self.titleLabel?.font = UIFont(name: "OpenSans-Semibold", size: 18)
         self.setTitleColor(UIColor.white, for: .normal)
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red: 151/255, green: 151/255, blue: 151/255, alpha: 0.2).cgColor

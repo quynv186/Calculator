@@ -33,10 +33,8 @@ class OperatorsButton: UIButton {
         }
         
         layer.cornerRadius = 8.0
-        
-        titleLabel?.font = UIFont.systemFont(ofSize: 20)
         self.setTitleColor(UIColor.white, for: .normal)
-        
+        titleLabel?.font = UIFont(name: "OpenSans-Semibold", size: 20)
     }
 
 }
